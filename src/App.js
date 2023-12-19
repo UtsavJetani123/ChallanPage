@@ -11,7 +11,7 @@ function App() {
         for (let i = 0; i < 10; i++) {
       AddRow(i)
     }
-  },[])
+  })
 
   useEffect(()=>{
     const inputs = document.querySelectorAll(".otp-field input");
