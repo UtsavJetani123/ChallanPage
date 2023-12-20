@@ -88,7 +88,7 @@ function App() {
 
   return (
     <>
-    <div className="absolute top-[50%] left-[80%] w-[700px] h-[200px]">
+    <div className="absolute top-[50%] left-[80%] h-[200px]">
       <RotatingLines
         strokeColor="grey"
         strokeWidth="5"
