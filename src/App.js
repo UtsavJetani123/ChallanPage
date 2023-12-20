@@ -97,7 +97,7 @@ function App() {
         visible={Loader}
       />
     </div>
-      <div className="w-full h-full" ref={padref}>
+      <div className="w-full h-full flex justify-center" ref={padref}>
         <div className="Containar w-[600px] h-full border-2 p-2 border-black">
           {/* First Row */}
           <div className="flex">
